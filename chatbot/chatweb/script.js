@@ -16,7 +16,7 @@ function sendMessage() {
 }
 
 function generateBotResponse(userInput) {
-        //aqui se agrega datos de respuesta con la siguiente sintaxis: "pregunta":"respuesta"
+        //aqui se agrega datos de respuesta con la siguiente sintaxis: "pregunta":"respuesta",
     var keywordResponses = {
         "menu": "Preguntas que puede realizar:\n1) INTERNACIONALÍZATE\n2) CONOCE TU NUEVO PORTAL ESTUDIANTIL\n3) EXPERIENCIA ACADÉMICA\n4) VIDA UNIVERSITARIA\n5) SEGURIDAD E HIGIENE\n6) INTERACCIÓN Y APOYO ESTUDIANTIL",
         "hola": "¡Hola! Soy un bot de preguntas frecuentes realizadas. Pregúntame cualquier cosa relacionada con la universidad escribiendo menu y trataré de ayudarte.",
